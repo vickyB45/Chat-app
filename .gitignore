@@ -1,0 +1,23 @@
+# Node modules (huge files, not needed)
+node_modules/
+
+# Environment variables (sensitive keys)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Optional: IDE/editor specific
+.vscode/
+.idea/
+
+# Optional: coverage reports or build folders
+coverage/
+dist/
+build/
